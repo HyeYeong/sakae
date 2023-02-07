@@ -1,11 +1,15 @@
 # sakae
+
 : next-app의 배포 사이트
+
 ## Specs
 
 next Js 기반 프로젝트
- - (React + typescript, scss)
+
+- (React + typescript, scss)
 
 ### 디자인 패턴
+
 아토믹 디자인
 
 ## SiteMap
@@ -46,3 +50,9 @@ push, pull_request
 - refactor : 코드 리펙토링
 - test : 테스트 코드, 리펙토링 테스트 코드 추가
 - chore : 빌드 업무 수정, 패키지 매니저 수정
+
+### build 순서
+
+$ git add out/
+$ git commit -m "deploy to gh-pages"
+$ git subtree push --prefix out origin gh-pages
