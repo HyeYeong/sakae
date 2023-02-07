@@ -53,6 +53,6 @@ push, pull_request
 
 ### build 순서
 
-$ git add out/
-$ git commit -m "deploy to gh-pages"
+$ git add out/ <br/>
+$ git commit -m "deploy to gh-pages" <br/>
 $ git subtree push --prefix out origin gh-pages
