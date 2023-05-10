@@ -52,7 +52,8 @@ push, pull_request
 - chore : 빌드 업무 수정, 패키지 매니저 수정
 
 ### build 순서
-
+(어느 브랜치든 상관없음..일반적으로 main브랜치에서 실행함)
+$ npm run deploy
 $ git add out/ <br/>
 $ git commit -m "deploy to gh-pages" <br/>
 $ git subtree push --prefix out origin gh-pages
